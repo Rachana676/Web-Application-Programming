@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="stud_style.css"?>
+
+<students>
+        <heading> Student information </heading>
+        <student>
+                <name>ANUP. S</name>
+                <USN>RVCE20MCA019</USN>
+                <college>RV COLLEGE OF ENGINEERING</college>
+                <branch>MCA</branch>
+                <yoj>2020</yoj>
+                <email>anups@rvce.edu.in</email>
+        </student>
+        <student>
+                <name>CHARITHA. S</name>
+                <USN>DSI19MBA009</USN>
+                <college>DAYANANDA SAGAR INSTITUTIONS</college>
+                <branch>MBA</branch>
+                <yoj>2019</yoj>
+                <email>charithas@dsi.edu.in</email>
+        </student>
+        <student>
+                <name>SOWMYA</name>
+                <USN>RVCE20MCA019</USN>
+                <college>RV COLLEGE OF ENGINEERING</college>
+                <branch>MCA</branch>
+                <yoj>2020</yoj>
+                <email>sowmya@rvce.edu.in</email>
+        </student>
+</students>
+

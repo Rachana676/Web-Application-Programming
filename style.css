@@ -1,0 +1,22 @@
+table,tr,th,td{
+    border:5px solid black;
+    text-align: center;
+}
+
+h1{
+    color:crimson;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style:oblique
+}
+
+marquee{
+    text-decoration: underline;
+}
+
+footer{
+    text-decoration: underline;
+    background-color:darkgoldenrod;
+}
+

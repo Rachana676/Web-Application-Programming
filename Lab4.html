@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            h1{
+                font-size: 50px;
+                text-align: center;
+                text-decoration: underline;
+            }
+            body{
+                background-color:1FF00F;
+            }
+        </style>
+    </head>
+    <body style="background-color: cadetblue;">
+        <h1>Login Page</h1>
+        <center>
+            <form>
+                UserName: <input type="text" name="user_id" id="userid"/>
+                Password: <input type="password" name="passwd"/>
+                <input type="button" onclick="check(this.form)" value="Login"/>
+                <input type="reset" value="Reset"/>
+            </form>
+        </center>
+        <script language="javascript">
+            var c_uname=/^1[A-ZA-Z0-90-9A-ZA-ZA-Z-0-9]{9}$/;
+            var c_pwd=/^(?=.*\d)(?=.*[!@#%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+            function check(form){
+                var userid=form.user_id.value;
+                var pwd=form.passwd.value;
+                if(!c_uname.test(userid)||!c_pwd.test(pwd))
+                {
+                    alert("Incorrect UserName/Password");
+                }
+                else{
+                    alert("Login Successful")
+                    var d=new Date();
+                    document.write(d);
+                    document.body.bgColor="pink";
+                    document.body.Color="blue";
+                }
+            }
+        </script>
+    </body>
+</html>
